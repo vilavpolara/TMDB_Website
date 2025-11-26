@@ -1,0 +1,10 @@
+streamlit
+requests
+pandas
+numpy
+scikit-learn
+nltk
+matplotlib
+plotly
+python-dotenv
+Pillow
