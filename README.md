@@ -20,18 +20,15 @@ Designed for academic and production use, this system supports:
 # 📁 Project Structure
 
 movie_recommender/
-app.py
-api_handler.py
-recommendation.py
-nlp_processing.py
-filters.py
-utils.py
-config.py
-requirements.txt
-README.md
-
-markdown
-Copy code
+  app.py
+  api_handler.py
+  recommendation.py
+  nlp_processing.py
+  filters.py
+  utils.py
+  config.py
+  requirements.txt
+  README.md
 
 Each file is modular, documented, and testable.
 
@@ -103,10 +100,7 @@ Each file is modular, documented, and testable.
 
 Create a `.env` file in the project root:
 
-TMDB_API_KEY=your_tmdb_api_key_here
-
-yaml
-Copy code
+TMDB_API_KEY=c8f92a97a7b6bcca6e4d8d518d0a9f0c
 
 You can generate an API key at:  
 https://www.themoviedb.org/settings/api
@@ -119,15 +113,9 @@ Go to:
 
 Project Settings → Secrets → Add Secret
 
-makefile
-Copy code
-
 Add:
 
-TMDB_API_KEY="your_api_key_here"
-
-yaml
-Copy code
+TMDB_API_KEY="c8f92a97a7b6bcca6e4d8d518d0a9f0c"
 
 Do **not** commit keys into the repository.
 
@@ -139,22 +127,13 @@ Do **not** commit keys into the repository.
 
 pip install -r requirements.txt
 
-shell
-Copy code
-
 ### 2. Run the app
 
 streamlit run app.py
 
-arduino
-Copy code
-
 This will open your browser at:
 
 http://localhost:8501
-
-yaml
-Copy code
 
 ---
 
@@ -181,10 +160,6 @@ Copy code
 
 ### **Hybrid Method**
 hybrid = 0.7 * content_similarity + 0.3 * sentiment_similarity
-
-yaml
-Copy code
-Configurable weighting through the code.
 
 ### **Natural-Language Query Support**
 User enters:
